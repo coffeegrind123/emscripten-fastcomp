@@ -197,6 +197,7 @@ static cl::opt<bool>
 NoUnlignedAccess("emscripten-no-unaligned-access",
                 cl::desc("Prevent unaligned access (very low performance)"),
                 cl::init(false));
+
 static cl::opt<std::string>
 UnalignedFunctionsList("emscripten-unaligned-functions-list-file",
                 cl::desc("Prevent unaligned access in functions listed in file"),
